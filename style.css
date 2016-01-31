@@ -49,3 +49,62 @@ table {
 
 /* Above is CSS Reset, below starts project CSS*/
 
+
+#page {
+	padding: 15%;
+}
+
+#bkg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  opacity: 0.5;
+}
+
+h1, h2 {
+	position: absolute;
+}
+
+
+h1 {
+	font-size: 4.292em; /* 68.665px */
+	font-family: 'Pinyon Script', cursive;
+	top: .72em;
+}
+
+h2 {
+	font-size: 2.197em; /* 35.156px */
+	font-family: Verdana, Geneva, sans-serif;
+	font-style: italic;
+	top: 3.5em;
+}
+
+#entry h3 {
+	position: relative;
+	font-size: 2.197em; /* 35.156px */
+	font-family: Verdana, Geneva, sans-serif;
+	top: 5.5em;
+}
+
+#entry p {
+	position: relative;
+	font-size: 1em; /* 18px */
+	font-family: Verdana, Geneva, sans-serif;
+	top: 12.85em;
+}
+
+#entry button {
+	position: relative;
+    font-size: 1em; /* 18px */
+	top: 13.85em;
+	
+}
+
+
+
+
