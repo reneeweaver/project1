@@ -66,7 +66,7 @@ table {
   opacity: 0.5;
 }
 
-/* based on ratio 4:5 - major thrid */
+/* based on 18px = 1em */
 
 h1, h2 {
 	position: relative;
@@ -76,15 +76,38 @@ h1, h2 {
 h1 {
 	font-size: 4.292em; /* 68.665px */
 	font-family: 'Pinyon Script', cursive;
-	top: .72em;
+	top: 1em;
 }
 
 h2 {
 	font-size: 2.197em; /* 35.156px */
 	font-family: Verdana, Geneva, sans-serif;
 	font-style: italic;
-	top: .72em;
+	top: 1em;
 }
+
+#entry h3 {
+	position: relative;
+	font-size: 2.197em; /* 35.156px */
+	font-family: Verdana, Geneva, sans-serif;
+	top: 1em;
+}
+
+#entry p {
+	position: relative;
+	font-size: 1em; /* 18px */
+	font-family: Verdana, Geneva, sans-serif;
+	top: 1em;
+}
+
+.signup {
+  margin: 1em auto;
+  background: #FAFAFA;
+  border-radius: 5px;
+ 
+}
+
+@media screen and (min-width: 400px){
 
 #main-navbar {
 	margin: 0 auto;
@@ -109,27 +132,42 @@ h2 {
 	padding: 1em;
 
 }
+}
+@media screen and (max-width: 400px) {
 
-#entry h3 {
-	position: relative;
-	font-size: 2.197em; /* 35.156px */
-	font-family: Verdana, Geneva, sans-serif;
-	top: .72em;
+h1 {
+	font-size: 1.111em; /* 20px */
+	font-family: 'Pinyon Script', cursive;
+	top: 1em;
 }
 
-#entry p {
-	position: relative;
+h2 {
 	font-size: 1em; /* 18px */
 	font-family: Verdana, Geneva, sans-serif;
-	top: .72em;
+	font-style: italic;
+	top: 1em;
 }
 
-#entry button {
-	position: relative;
-    font-size: 1em; /* 18px */
-	top: .72em;
-	
+#main-navbar {
+  background-color: #625370;
+  height: 6em;
 }
+
+#main-navbar ul {
+  float: left;
+  position: relative;
+  list-style-type: none;
+  margin-top: auto;
+}
+
+#main-navbar ul li {
+	float left;
+	position: relative;
+	display: block;
+	padding: 0.555556em;
+}
+} 
+
 
 
 
