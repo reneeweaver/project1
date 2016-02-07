@@ -66,8 +66,10 @@ table {
   opacity: 0.5;
 }
 
+/* based on ratio 4:5 - major thrid */
+
 h1, h2 {
-	position: absolute;
+	position: relative;
 }
 
 
@@ -81,27 +83,51 @@ h2 {
 	font-size: 2.197em; /* 35.156px */
 	font-family: Verdana, Geneva, sans-serif;
 	font-style: italic;
-	top: 3.5em;
+	top: .72em;
+}
+
+#main-navbar {
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #625370;
+}
+
+#main-navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 50%;
+	float: left;
+}
+
+#main-navbar ul li {
+	float: left;
+	position: relative;
+	right: 50%;
+	display: block;
+	padding: 1em;
+
 }
 
 #entry h3 {
 	position: relative;
 	font-size: 2.197em; /* 35.156px */
 	font-family: Verdana, Geneva, sans-serif;
-	top: 5.5em;
+	top: .72em;
 }
 
 #entry p {
 	position: relative;
 	font-size: 1em; /* 18px */
 	font-family: Verdana, Geneva, sans-serif;
-	top: 12.85em;
+	top: .72em;
 }
 
 #entry button {
 	position: relative;
     font-size: 1em; /* 18px */
-	top: 13.85em;
+	top: .72em;
 	
 }
 
