@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-/* Above is CSS Reset, below starts project CSS*/
+/* Above is CSS Reset, below starts project 1 CSS*/
 
 
 #page {
@@ -111,11 +111,10 @@ h2 {
 
 .signup {
   margin: 1em auto;
-  background: #FAFAFA;
   border-radius: 5px;
   padding: 0.8em;
- 
 }
+
 
 @media screen and (min-width: 400px){
 
@@ -170,7 +169,6 @@ h2 {
 #main-navbar {
   background-color: #625370;
   height: 6em;
-  text-decoration: none;
 }
 
 #main-navbar ul {
@@ -185,7 +183,6 @@ h2 {
 	float left;
 	position: relative;
 	display: block;
-	text-decoration: none;
 	padding: 0.555556em;
 }
 } 
