@@ -66,17 +66,24 @@ table {
   opacity: 0.5;
 }
 
+
 /* based on 18px = 1em */
 
 h1, h2 {
 	position: relative;
 }
 
+#company_name {
+	/*background-color: red;*/
+	width: auto;
+	height: auto;
+	padding: 2.197em;
+}
 
 h1 {
 	font-size: 4.292em; /* 68.665px */
 	font-family: 'Pinyon Script', cursive;
-	top: 1em;
+	top: 0.262em;
 }
 
 h2 {
@@ -84,6 +91,7 @@ h2 {
 	font-family: Verdana, Geneva, sans-serif;
 	font-style: italic;
 	top: 1em;
+	bottom: 3em;
 }
 
 #entry h3 {
@@ -91,6 +99,7 @@ h2 {
 	font-size: 2.197em; /* 35.156px */
 	font-family: Verdana, Geneva, sans-serif;
 	top: 1em;
+	padding: 1em;
 }
 
 #entry p {
@@ -104,15 +113,16 @@ h2 {
   margin: 1em auto;
   background: #FAFAFA;
   border-radius: 5px;
+  padding: 0.8em;
  
 }
 
 @media screen and (min-width: 400px){
 
 #main-navbar {
-	margin: 0 auto;
 	overflow: hidden;
 	background-color: #625370;
+	top: 5em;
 }
 
 #main-navbar ul {
@@ -133,30 +143,41 @@ h2 {
 
 }
 }
+
 @media screen and (max-width: 400px) {
 
 h1 {
-	font-size: 1.111em; /* 20px */
+	font-size: 2.441em; /* 43.945px */
 	font-family: 'Pinyon Script', cursive;
-	top: 1em;
+	top: .262em;
 }
 
 h2 {
-	font-size: 1em; /* 18px */
+	font-size: 1.563em; /* 28.125px */
 	font-family: Verdana, Geneva, sans-serif;
 	font-style: italic;
-	top: 1em;
+	top: 0.8em;
+	bottom: 1em;
+}
+
+#entry h3 {
+	position: auto;
+	font-size: 1.563em; /* 28.125px */
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 0.8em;
 }
 
 #main-navbar {
   background-color: #625370;
   height: 6em;
+  text-decoration: none;
 }
 
 #main-navbar ul {
   float: left;
   position: relative;
   list-style-type: none;
+  text-decoration: none;
   margin-top: auto;
 }
 
@@ -164,6 +185,7 @@ h2 {
 	float left;
 	position: relative;
 	display: block;
+	text-decoration: none;
 	padding: 0.555556em;
 }
 } 
