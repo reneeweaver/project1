@@ -51,7 +51,7 @@ table {
 
 
 #page {
-	padding: 15%;
+	padding: 10%;
 }
 
 #bkg img {
@@ -86,15 +86,14 @@ h1 {
 	top: 0.262em;
 }
 
-h2 {
-	font-size: 2.197em; /* 35.156px */
+h1 small{
+	font-size: 0.262em; /*35.156px */
 	font-family: Verdana, Geneva, sans-serif;
-	font-style: italic;
-	top: 1em;
-	bottom: 3em;
+	top: 2.197em;
+	white-space: nowrap;
 }
 
-#entry h3 {
+h3 {
 	position: relative;
 	font-size: 2.197em; /* 35.156px */
 	font-family: Verdana, Geneva, sans-serif;
@@ -102,7 +101,7 @@ h2 {
 	padding: 1em;
 }
 
-#entry p {
+p {
 	position: relative;
 	font-size: 1em; /* 18px */
 	font-family: Verdana, Geneva, sans-serif;
@@ -114,6 +113,8 @@ h2 {
   border-radius: 5px;
   padding: 0.8em;
 }
+
+
 
 
 @media screen and (min-width: 400px){
