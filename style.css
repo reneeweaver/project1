@@ -134,6 +134,21 @@ p {
   padding: 0.8em;
 }
 
+.signup_input{
+	border-radius: 0.64em;
+	padding: 0.626em;
+	margin: 1em;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.8em; /*14.4px*/
+}
+
+.signup_submit{
+	border-radius: 0.64em;
+	background-color: #FAFAFA;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.8em; /*14.4*/
+}
+
 @media screen and (min-width: 30em) {  /*480px*/ 
 
 h1 {
