@@ -52,27 +52,18 @@ table {
 
 #page {
 	padding: 5%;
+	background: url(images/beach_bkg.jpg) no-repeat center center fixed; 
+    background-size: cover;
 }
 
-#bkg img {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 50%;
-  min-height: 50%;
-  opacity: 0.5;
+html {
+	background-color: #000;
 }
 
 /* based on 18px = 1em */
 
 h1 {
 	position: relative;
-}
-
-h1 {
 	font-size: 2.441em; /* 43.945px */
 	font-family: 'Pinyon Script', cursive;
 	top: .262em;
@@ -149,6 +140,16 @@ p {
 	font-size: 0.8em; /*14.4*/
 }
 
+#share {
+	padding: 5%;
+}
+
+#share p{
+	padding-bottom: 1.64em;
+	color: #FAFAFA;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
 @media screen and (min-width: 30em) {  /*480px*/ 
 
 h1 {
@@ -190,7 +191,7 @@ p {
 	margin: 0;
 	padding: 0;
 	position: relative;
-	left: 50%;
+	left: 30%;
 	float: left;
 }
 
