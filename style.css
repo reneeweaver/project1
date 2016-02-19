@@ -100,8 +100,10 @@ p {
 }
 
 #main-navbar {
-  background-color: #625370;
-  height: 6em;
+  background-color: #EDDAD7;
+  opacity: 0.5;
+  border-radius: 1em;
+  height: 5.5em;
 }
 
 #main-navbar ul {
@@ -117,6 +119,8 @@ p {
 	position: relative;
 	display: block;
 	padding: 0.555556em;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.85em;
 }
 
 .signup {
@@ -181,8 +185,9 @@ p {
 }
 
 #main-navbar {
-	overflow: hidden;
-	background-color: #625370;
+	background-color: #EDDAD7;
+	opacity: 0.5;
+	border-radius: 1em;
 	height: 2.7777em; /*50px*/
 }
 
@@ -191,15 +196,14 @@ p {
 	margin: 0;
 	padding: 0;
 	position: relative;
-	left: 30%;
 	float: left;
 }
 
 #main-navbar ul li {
 	float: left;
 	position: relative;
-	right: 50%;
 	display: block;
 	padding: 1em;
+	font-family: Verdana, Geneva, sans-serif;
 
 }
